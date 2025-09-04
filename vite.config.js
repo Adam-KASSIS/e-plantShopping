@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Set the base to your repo name
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/e-plantShopping/',
-  plugins: [react()],
+    base: "/paradise-nursery-shopping-cart-app",
+    plugins: [react()],
 })
